@@ -84,7 +84,6 @@ void renderBitmapString(float x, float y, float z, void* font, const char* strin
         glutBitmapCharacter(font, *c);
     }
 }
-
 void instructionPage() {
     const char* labels[] = {
         "1-5", "T", "R", "U", "B", "I", "M", "Z", "X", "N", "D", "ESC"
@@ -3717,7 +3716,7 @@ void anikupdate(int value) {
     }
         //cloudOffset += 0.0003f; // Slow speed, adjust if needed
         //if (cloudOffset > 2.0f)  // Reset after drifting far right
-          //  cloudOffset = -2.0f;
+            //cloudOffset = -2.0f;
      if (bombStarted)
     {
         if (bombX < bombThresholdX) {
